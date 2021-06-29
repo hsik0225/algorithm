@@ -17,8 +17,13 @@ public class Baekjoon11720 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        scanner.next();
+        scanner.nextLine();
 
-        System.out.println(scanner.next().chars().map(c -> c-'0').reduce(Integer::sum).getAsInt());
+        final int sum = scanner.nextLine()
+                               .chars()
+                               .map(number -> number - '0')
+                               .sum();
+
+        System.out.println(sum);
     }
 }
