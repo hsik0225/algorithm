@@ -17,7 +17,7 @@ https://www.acmicpc.net/problem/10809
 public class Baekjoon10809 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         String word = scanner.next();
 
         for (int i = 97; i < 123; i++) {
