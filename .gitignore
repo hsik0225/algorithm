@@ -42,6 +42,9 @@
 # *.iml
 # *.ipr
 
+*.iml
+*.ipr
+
 # CMake
 cmake-build-*/
 
@@ -204,3 +207,5 @@ gradle-app.setting
 **/build/
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,windows,java,macos,gradle
+
+out/**/*.class
