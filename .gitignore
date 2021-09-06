@@ -209,3 +209,5 @@ gradle-app.setting
 # End of https://www.toptal.com/developers/gitignore/api/intellij,windows,java,macos,gradle
 
 out/**/*.class
+
+.idea/sonarlint/**
