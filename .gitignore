@@ -211,3 +211,5 @@ gradle-app.setting
 out/**/*.class
 
 .idea/sonarlint/**
+
+.idea/misc.xml
